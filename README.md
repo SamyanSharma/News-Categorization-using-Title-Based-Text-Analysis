@@ -94,3 +94,17 @@ prediction = predict_news_category_best(sample_headline)
 print(f"Category: {prediction}") 
 # Output: Tech
 ```
+
+## 🤝 Contributing
+Contributions are welcome! This project follows a multidisciplinary approach combining **NLP**, **Data Science**, **AI/ML**, and **Media Studies**. Please see the `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` for details.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** - see the `LICENSE` file for details.
+
+---
+
+## 🙏 Acknowledgments
+- Thanks to all contributors who have helped make this project possible
+- Special thanks to the open-source community for their invaluable tools and libraries
