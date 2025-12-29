@@ -56,24 +56,24 @@ graph TD
 ## 📦 Technical Implementation
 
 ### **Dataset**
-* [cite_start]**Source**: BBC News Train dataset[cite: 173].
-* [cite_start]**Size**: 1,490 news entries[cite: 198].
-* [cite_start]**Split**: 75% Training (1,117 articles) and 25% Testing (373 articles)[cite: 200, 201].
+* **Source**: BBC News Train dataset.
+* **Size**: 1,490 news entries.
+* **Split**: 75% Training (1,117 articles) and 25% Testing (373 articles).
 
 ### **Preprocessing Workflow**
 The system standardizes raw titles through the following steps:
 
 
 
-* [cite_start]**Lowercasing**: Ensures uniform character case for analysis and simplifes text analysis[cite: 70, 86].
-* [cite_start]**Punctuation Removal**: Filters out computational noise to simplify textual data[cite: 71, 91].
-* [cite_start]**Tokenization**: Splits titles into separate word units/tokens[cite: 72, 83].
-* [cite_start]**Stopword Removal**: Drops common words like "a", "the", and "is" to improve efficiency and accuracy[cite: 73, 79].
-* [cite_start]**Text Stemming**: Reduces words to their base form by removing prefixes and suffixes to standardize the word[cite: 74, 93, 94].
+* **Lowercasing**: Ensures uniform character case for analysis and simplifies text analysis.
+* **Punctuation Removal**: Filters out computational noise to simplify textual data.
+* **Tokenization**: Splits titles into separate word units/tokens.
+* **Stopword Removal**: Drops common words like "a", "the", and "is" to improve efficiency and accuracy.
+* **Text Stemming**: Reduces words to their base form by removing prefixes and suffixes to standardize the word.
 
 ### **Feature Extraction**
-* [cite_start]**TF-IDF**: Prioritizes category-defining words by weighting importance relative to the corpus[cite: 96, 97].
-* [cite_start]**Bag-of-Words (BoW)**: Simple frequency-based count method used for baseline comparison[cite: 99, 102].
+* **TF-IDF**: Prioritizes category-defining words by weighting importance relative to the corpus.
+* **Bag-of-Words (BoW)**: Simple frequency-based count method used for baseline comparison.
 
 ---
 
