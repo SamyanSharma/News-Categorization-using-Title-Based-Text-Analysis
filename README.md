@@ -10,7 +10,7 @@
 A high-performance Machine Learning pipeline designed to categorize news articles using **only titles**. By bypassing full-text analysis, this approach reduces computational overhead by 70–80% while achieving a peak accuracy of **97.86%**.
 
 ## 📌 Overview
-Digital newsrooms face a significant challenge: processing a massive influx of data in real-time. Traditional categorization systems rely on full-text analysis, which is computationally expensive and introduces unnecessary latency. This project shifts the focus to News Titles, which represent the "purest and most structured information" within an article. By optimizing NLP pipelines to extract high-density semantic value from minimal text, this research demonstrates that near state-of-the-art accuracy can be achieved with a fraction of the computational footprint.
+Digital newsrooms face a significant challenge: processing a massive influx of data in real-time. Traditional categorization systems rely on full-text analysis, which is computationally expensive and introduces unnecessary latency. This project shifts the focus to News Titles, which represent the "purest and most structured information" within an article. By optimizing NLP pipelines to extract high-density semantic value from minimal text, this research demonstrates that near state-of-the-art accuracy can be achieved with a fraction of the computational footprint. This makes the system ideal for low-latency news aggregators and real-time social media monitoring.
 
 ## 🚀 Features
 * **Real-time Title Analysis**: High accuracy achieved without requiring article bodies.
